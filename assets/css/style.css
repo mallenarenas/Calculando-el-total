@@ -1,0 +1,53 @@
+.container{
+    height: 80vh;
+    margin:10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    padding: 20px;
+    background-color: #729e2e;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    border-radius: 2em;
+}
+.card img{
+    border-radius: 2em;
+}
+.card input{
+    margin: 5% 10%;
+    padding: 2% 10%;
+    border: #729e2e;
+    border-radius: 0.5em;
+}
+button{
+    background-color: orange;
+    color: white;
+    margin: 10%;
+    padding: 5% 10%;
+    border-radius: 0.5em;
+}
+#input-2{
+    margin: 5% 10%;
+    padding: 2% 10%;
+    border: #729e2e;
+    border-radius: 0.5em;
+}
+#precio{
+    margin: 5% 10%;
+    padding: 2% 10%;
+    border: #729e2e;
+    border-radius: 0.5em;
+}
+.title{
+    margin-top: 0%;
+}
+.color_laptopt{
+    border: solid 1px black;
+    border-radius: 50%;
+}

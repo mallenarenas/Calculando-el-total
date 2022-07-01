@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/cca1c590b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          src="assets/img/card_image.png"
+          alt="Laptop abierta con imagen de un ave de color verde en la pantalla"
+        />
+        <p class="title">Laptop Gamer AMD</p>
+        <input type="text" id="input-1" placeholder="Cantidad" />
+        <select id="input-2" placeholder="Color">
+          <option value="red">Color: Rojo</option>
+          <option value="blue">Color: Azul</option>
+          <option value="black" selected>Color: Negro</option>
+        </select>
+        <select id="precio">
+          <option value="200000">Precio: 200000</option>
+          <option value="400000" selected>Precio: 400000</option>
+          <option value="600000">Precio: 600000</option>
+        </select>
+        <div>
+          <button id="button">Calcular Total</button>
+        </div>
+      </div>
+      <div class="resumen">
+        <p>Total: $ <span class="total">0</span></p>
+        <p>Cantidad: <span class="cantidad">0</span></p>
+        <p>Color: <i class="fa-solid fa-circle color_laptopt"></i></p>
+      </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
